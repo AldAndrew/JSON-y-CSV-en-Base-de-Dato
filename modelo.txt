@@ -1,0 +1,40 @@
+﻿Modelo de composición de los modulos.
+
+JSON
+	nom_db
+	user_owner
+	classification 
+
+CSV 
+	row_id       (1/2/3 numero)
+	user_id      (JG/JG/FT/RC nick)
+	user_email
+	user_rel_state   (A/D ACTIVO / INACTIVO)
+	user_manager (MNG1-MNG2-MNG3/MNG4) 
+
+db_list
+	id
+	nom_db
+	user_id 	
+	classification - ALTA / BAJA 
+	email_send - Y N
+
+users
+	user_id
+	user_email 	
+	
+users_rel
+	user_id
+	user_manager 
+	user_rel_state 
+	
+correo x owner altas 
+	agrupar x manager de db no enviadas, listado 
+	nombre base datos
+
+dependencia de los usuarios 
+
+
+Es importante señalar, que está versión no valida correo.
+
+
