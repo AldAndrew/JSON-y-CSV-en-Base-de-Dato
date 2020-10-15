@@ -1,0 +1,20 @@
+[
+  {
+     "nom_db": "DB_ALPHA",
+     "user_owner":  "USR1",
+	 "classification": "HIGH"
+  },
+  {
+     "nom_db": "DB_BETA",
+     "user_owner":  "USR1",
+	 "classification": "LOW"
+  },
+  {
+     "nom_db": "DB_GAMMA",
+     "user_owner":  "USR2",
+	 "classification": "HIGH"
+  }
+]
+
+
+
