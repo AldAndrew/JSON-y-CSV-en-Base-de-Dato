@@ -19,3 +19,9 @@ Con respecto a los entregables:
 	3. El codigo no valida los email al proceder con el envio de estos.
 	4. El desarrollo se genero con Python.
 	5. No se dockeniza la aplicación.
+
+Consideraciones:
+	1. Cuando se procese o ejecute los archivo .py, es necesario proceder a setear los coding correspondientes en la primera linea del codigo. Ver referencia https://www.python.org/dev/peps/pep-0263/
+	2. Se debe considerar donde estara ubicado el codigo, dado que se deberan setear las rutas para importar los codigos y proceder con la ejecución, de lo contrario tendran problemas por no encontrar la ruta. Ejemplo de las modificaciones a considerar:
+		Archivo main.py - linea n°6 - sys.path.append(root + "/modules") = Se debe especificar la ruta que corresponda.
+		Archivo main.py - linea n°15 - my_dir = '/trabajo/files/' = Se debe especificar la ruta que corresponda.
