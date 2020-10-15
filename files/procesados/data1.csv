@@ -1,0 +1,6 @@
+row_id;user_id;user_email;user_state;user_manager
+1;USR1;darkciberHuerfa@gmail.com;ACTIVO;USRX
+2;USR2;darkciberHuerfa@gmail.com;ACTIVO;USRY
+3;USR3;darkciberHuerfa@gmail.com;ACTIVO;USRX
+4;USRX;darkciberHuerfa@gmail.com;ACTIVO;USR0
+5;USRY;darkciberHuerfa@gmail.com;ACTIVO;USR0
